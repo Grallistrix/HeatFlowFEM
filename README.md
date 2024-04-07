@@ -62,12 +62,12 @@ Tot [℃]
 InitialTemp [℃]
 Density [kg/m³] 
 SpecificHeat [J⋅kg⁻¹⋅K⁻¹] 
-Nodes number [X] //Number of nodes of the grid
-Elements number [X] //Number of elements of the grid
+Nodes number [X] //Number of grid nodes
+Elements number [X] //Number of grid elements
 *Node
 [Node ID], [X coordinate], [Y coordinate]
 *Element, type=DC2D4
-[ID] [Node ID 1], [Node ID 2], [Node ID 3], [Node ID 4],
+[ID], [Node ID 1], [Node ID 2], [Node ID 3], [Node ID 4],
 *BC  // List of edge nodes for calculating the Boundry Condition flow
 [Node ID 1], [Node ID 2] ... [Node ID X]
 ```
